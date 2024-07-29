@@ -1,5 +1,11 @@
 ## Dependencias que podrias necesitar
 
+### Dependencias iniciales
+
+```
+npm i bcryptjs cookie-parser cors dotenv express jsonwebtoken morgan nodemon zod nodemailer swagger-ui-express swagger-jsdoc mongoose
+```
+
 - [Bcryptjs](https://www.npmjs.com/package/bcryptjs) // Encriptaciones
 - [Cookie-parser](https://www.npmjs.com/package/cookie-parser) // mejorar el formato de las cookies
 - [Cors](https://www.npmjs.com/package/cors) // conexion con el front
