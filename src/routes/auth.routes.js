@@ -1,13 +1,13 @@
 const { Router } = require('express')
-const handler = require('../handlers/authHandler')
+const Ctrl = require('../controllers/authCtrl')
 
 const auth = Router()
 
-auth.post('/login', [handler.login]) //login
-auth.post('/register', [handler.register]) //register
-auth.post('/logout', [handler.logout]) //log out
-auth.post('/refresh-token', [handler.refreshToken]) //get profile
-auth.get('/profile', [handler.profile]) //get profile
+auth.post('/login', [Ctrl.login]) //login
+auth.post('/register', [Ctrl.register]) //register
+auth.post('/logout', [Ctrl.logout]) //log out
+auth.post('/refresh-token', [Ctrl.refreshToken]) //get profile
+auth.get('/profile', [Ctrl.profile]) //get profile
 
 
 
